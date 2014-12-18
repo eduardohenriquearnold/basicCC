@@ -1,0 +1,6 @@
+basicCC - basic C Compiler
+==========================
+
+Script that translates a small set of basic commands into C language and generate a binary. Uses regular expressions and SED to translate the code and then GCC to compile it.
+
+The idea came with a coursework for the Object Orientated Design with C++ module I was taking at University of Surrey. We had to create a basic interpreter using C++ with OOD paradigm. After finishing that I thought it would be interesting to try and translate the commands straight to C and compile it. It was indeed easier, although it has no checks for syntax problems.
